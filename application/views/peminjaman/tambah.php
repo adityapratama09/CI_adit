@@ -9,7 +9,7 @@
                     <label>Anggota</label><br>
                     <select name="anggota_id" class="form-control">
                         <?php foreach($anggota as $a) : ?>
-                        <option value = "<? $a->id; ?>"><?= $a->nama; ?></option>
+                        <option value = "<?= $a->id; ?>"><?= $a->nama; ?></option>
                         <?php endforeach; ?>
                         </select>
                 </div>

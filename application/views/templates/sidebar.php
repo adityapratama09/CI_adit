@@ -42,6 +42,27 @@
     </a>
 </li>   
 
+<li class="nav-item">
+    <a class="nav-link" href="<?= base_url('laporan/peminjaman'); ?>">
+        <i class="fas fa-fw fa-book"></i>
+        <span>Laporan Peminjaman</span>
+    </a>
+</li>   
+
+<li class="nav-item">
+    <a class="nav-link" href="<?= base_url('laporan/anggota'); ?>">
+        <i class="fas fa-fw fa-book"></i>
+        <span>Laporan Anggota</span>
+    </a>
+</li>   
+
+<li class="nav-item">
+    <a class="nav-link" href="<?= base_url('laporan/buku'); ?>">
+        <i class="fas fa-fw fa-book"></i>
+        <span>Laporan Buku</span>
+    </a>
+</li>   
+
 </ul>
 <div id="content-wrapper" class="d-flex flex-column">
     <div id="content">
